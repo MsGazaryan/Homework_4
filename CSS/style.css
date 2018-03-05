@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav {
+	width: 100%;
+	height: 8vh;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#nav div{
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+}
+
+#nav .nav1 {
+	width: 50%;
+	padding-left: 100px;
+
+}
+#nav .nav1 p{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+}
+#nav .nav1 .letterE{
+	color: #60cfff;
+}
+
+#nav .nav2 p{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	font-variant: small-caps;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+.nav2:hover {
+	color: #60cfff;
+	border: 3px;
+	border-style: solid;
+	border-color: #60cfff;
+	cursor: pointer;
+}
+
+#nav .nav2:hover p{
+	color: #60cfff;
+}
+
+
+
+#center {
+	width: 100%;
+	height: 50vh;
+	background-image: url(https://static1.squarespace.com/static/55ccb520e4b0989acdaa0119/t/58d2c67f6b8f5b8a07ef056d/1490208390287/wheat-field-wallpaper-2_B%26);
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+#center h1{
+	font-size: 35px;
+	font-weight: lighter;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	line-height: 45px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#heading1{
+	margin-left: 395px;
+	margin-right: 395px;
+}
+#heading2{
+	margin-left: 260px;
+	margin-right: 260px;
+}
+
+#services .outerblock {
+	width: 100%;
+	height: 50vh;
+	box-sizing: border-box;
+	padding-left: 300px;
+	background-color: #60cfff;
+}
+
+#services .outerblock .innerblock {
+	width: 15%;
+	height: 30vh;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+	margin: 0px 10px;
+}
+
+#services h1{
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+	line-height: 25px;
+	margin-left: 15px;
+	padding-top: 25px;
+}
+#ser__{
+	text-decoration: underline;
+}
+
+#services h2{
+	font-size: 15px;
+	font-weight: normal;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+	line-height: 35px;
+}
+
+#services p{
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+	line-height: 15px;
+}
+
+
+.innerblock p:hover {
+	transform: translateY(-100px) scale(1.5,1.5);
+	background-color: #60cfff;
+	cursor: pointer;
+}
+.innerblock h2:hover{
+	text-decoration: underline;
+}
